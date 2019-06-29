@@ -1,0 +1,25 @@
+{
+  "name": "gulp_test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx gulp",
+    "minImages": "npx gulp min_images"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cache": "^1.1.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-imagemin": "^6.0.0",
+    "imagemin-jpeg-recompress": "^6.0.0"
+  },
+  "dependencies": {
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-zopfli": "^6.0.0",
+    "save-dev": "^2.0.0"
+  }
+}
